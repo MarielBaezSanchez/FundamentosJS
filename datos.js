@@ -8,7 +8,7 @@ console.log('Ejecutando desde Node');
    console.log(true);
    console.log(typeof(true));
    console.log("Este es un String");
-   console.log(typeof("Este es un String"));
+   console.log(typeof"Este es un String"());
    let variable;
    console.log(variable);
    console.log(typeof(variable));
@@ -16,4 +16,4 @@ console.log('Ejecutando desde Node');
    console.log(typeof([]));
 
    console.log([1, 2, 3]);
-   console.log('{name: Karen}');
+   console.log('{name: Karen}')
